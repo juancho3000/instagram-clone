@@ -14,9 +14,21 @@ body{
   display: flex;
 }
 
+.camera{
+  margin: 22px 2px;
+}
+
 .preview-profile{
   display: flex;
   background-color: whitesmoke;
+}
+
+.title{
+cursor: pointer;
+}
+
+.profileName{
+  cursor: pointer;
 }
 
 .dot {
@@ -26,12 +38,14 @@ body{
   border-radius: 50%;
   display: block;
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .three-dots{
   display: block;
   margin: 14px 4px 8px 10px;
   align-self: center;
+  cursor: pointer;
 }
 
 .like-comment{
@@ -41,18 +55,26 @@ body{
 
 .like-heart{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .like-bubble{
   margin: 23px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .like-arrow{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .like-bookMark{
- margin: 20px 4px 8px 10px
+ margin: 20px 4px 8px 10px;
+ cursor: pointer;
+}
+
+.see-comments{
+  cursor: pointer;
 }
 
 .options-list{
@@ -63,20 +85,25 @@ body{
 
 .list-house{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .list-search{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .list-plus{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .list-heart{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }
 
 .list-profile{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
 }

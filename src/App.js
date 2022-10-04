@@ -17,12 +17,12 @@ function App() {
   return (
     <div className="App">
       <section className='header'>
-      <AiOutlineCamera/>
-      <p>Instagram</p>
+      <AiOutlineCamera className='camera'/>
+      <p className='title'>Instagram</p>
       </section>
       <div className='preview-profile'>
         <span className='dot'></span>
-        <h3>
+        <h3 className='profileName'>
           profileName
         </h3>
         <span className='three-dots'>
@@ -49,7 +49,7 @@ function App() {
       <div className='interaction-count'>
         <section className='info'>
         <p>Liked by Friend1, Friend2 and 20 other friends, #hastags</p>
-        <p>view comments here</p>
+        <p className='see-comments'>view comments here</p>
         <p>2 weeks ago</p>
         </section>
       </div>
