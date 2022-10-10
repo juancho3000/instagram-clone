@@ -6,6 +6,7 @@ import Interactions from './components/interactions';
 import { AiOutlineCamera } from "react-icons/ai";
 import { BsBookmark } from "react-icons/bs";
 import Example from './photos-publication/example-1.jpg';
+import EnteringProfile from './components/Entering-profile';
 
 function App () {
   return (
@@ -33,6 +34,9 @@ function App () {
       </div>
      <div>
       <OptionsList/>
+     </div>
+     <div>
+      <EnteringProfile/>
      </div>
     </div>
   );

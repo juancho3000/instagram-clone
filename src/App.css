@@ -43,6 +43,26 @@ font-style: oblique;
   cursor: pointer;
 }
 
+.dot-2{
+  height: 10vh;
+  width: 15%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  margin: 20px 4px 8px 10px;
+  cursor: pointer;
+}
+
+.dot-3{
+  height: 10vh;
+  width: 15%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  margin: 20px 4px 8px 10px;
+  cursor: pointer;
+}
+
 .three-dots{
   display: block;
   margin: 14px 4px 8px 10px;
@@ -112,5 +132,78 @@ font-style: oblique;
 
 .list-profile{
   margin: 20px 4px 8px 10px;
+  cursor: pointer;
+}
+
+.head-section{
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.profile-details{
+  display: flex;
+}
+
+.profile-info{
+  display: flex;
+  align-items: center;
+}
+
+.boton{
+  width: 90%;
+  height: 5vh;
+  background-color: whitesmoke;
+  border-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stories-record{
+  display: flex;
+}
+
+.stories-text{
+  margin: 10vh 3vh;
+}
+
+.publications{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh;
+}
+
+.profile-images{
+  width: 300px;
+  height: 300px;
+  clear: both;
+}
+
+.profile-images>div{
+  width: 100px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+}
+
+.profile-images>div>img{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.profile-options{
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5e2e7;
+}
+
+.cell-pic{
+  cursor: pointer;
+}
+
+.person-pic{
   cursor: pointer;
 }
