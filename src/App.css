@@ -174,24 +174,22 @@ font-style: oblique;
 }
 
 .profile-images{
-  width: 300px;
   height: 300px;
   clear: both;
 }
 
 .profile-images>div{
-  width: 100px;
+  width: auto;
   height: 100px;
   float: left;
-  line-height: 100px;
   text-align: center;
 }
 
 .profile-images>div>img{
   display: inline-block;
   vertical-align: middle;
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 98%;
+  max-height: 90%;
 }
 
 .profile-options{

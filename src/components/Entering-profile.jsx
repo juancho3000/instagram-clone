@@ -53,6 +53,9 @@ function EnteringProfile () {
             <div><img src={Example} className='main-publication' alt='this'/></div>
             <div><img src={Example} className='main-publication' alt='this'/></div>
             <div><img src={Example} className='main-publication' alt='this'/></div>
+            <div><img src={Example} className='main-publication' alt='this'/></div>
+            <div><img src={Example} className='main-publication' alt='this'/></div>
+            <div><img src={Example} className='main-publication' alt='this'/></div>
             </div>
             <div className="profile-options">
             <span className='list-house'>
