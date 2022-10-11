@@ -12,6 +12,8 @@ body{
   padding: 5px;
   text-align: start;
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .camera{
@@ -76,23 +78,21 @@ font-style: oblique;
 }
 
 .like-heart{
-  margin: 20px 4px 8px 10px;
   cursor: pointer;
 }
 
 .like-bubble{
-  margin: 23px 4px 8px 10px;
   cursor: pointer;
 }
 
 .like-arrow{
-  margin: 20px 4px 8px 10px;
   cursor: pointer;
 }
 
 .book-mark{
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
 }
 
 .like-bookMark{
