@@ -14,9 +14,11 @@ function ProfileName () {
         <h3 className='profileName' onClick={()=> {setGoToProfile(true)}}>
           profileName
         </h3>
+        <div className="three-dots-before">
         <span className='three-dots'>
         <BsThreeDotsVertical/>
         </span>
+        </div>
       </div>
     );
 }

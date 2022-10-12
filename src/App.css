@@ -31,6 +31,15 @@ font-family: cursive;
 font-style: oblique;
 }
 
+.direct-message{
+  margin: -45px 4px 0px;
+}
+
+.direct-message-style{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .profileName{
   cursor: pointer;
 }
@@ -65,9 +74,14 @@ font-style: oblique;
   cursor: pointer;
 }
 
+.three-dots-before{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .three-dots{
   display: block;
-  margin: 14px 4px 8px 10px;
+  margin: 3px 4px 0px 325px;
   align-self: center;
   cursor: pointer;
 }

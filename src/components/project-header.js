@@ -8,10 +8,12 @@ function ProjectHeader () {
       <section className='header'>
       <AiOutlineCamera className='camera'/>
       <p className='title'>Instagram</p>
+      </section>
+      <div className="direct-message-style">
       <span className="direct-message">
       <BiPaperPlane size="30px"/>
       </span>
-      </section>
+      </div>
       </div>
     );
 }
