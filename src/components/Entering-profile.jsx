@@ -14,7 +14,9 @@ function EnteringProfile () {
         <div className="nameHere">
             <section className="head-section">
              <p>YourAccountName</p>
-             <BsJustify size="30px"/>
+             <span className="three-lines">
+             < BsJustify size="30px"/>
+             </span>
             </section>
             <div className="profile-details">
             <span className='dot-2'></span>

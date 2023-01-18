@@ -19,9 +19,9 @@ function MainFeed () {
       <div className='publication-image'>
        <img src={Example} className='main-publication' alt='this'/>
       </div>
-      <div>
+      <section className="like-icons">
        <LikeSection/>
-      </div>
+      </section>
       <div className='book-mark'>
       <span className='like-bookMark'>
           <BsBookmark size="30px"/>

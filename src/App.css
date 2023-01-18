@@ -33,6 +33,7 @@ font-style: oblique;
 
 .direct-message{
   margin: -45px 4px 0px;
+  cursor: pointer;
 }
 
 .direct-message-style{
@@ -89,6 +90,13 @@ font-style: oblique;
 .like-comment{
   display: flex;
   background-color: whitesmoke;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.like-icons{
+  display: flex;
+  width: 100%;
 }
 
 .like-heart{
@@ -175,6 +183,12 @@ font-style: oblique;
 
 .stories-record{
   display: flex;
+}
+
+.three-lines{
+  display: flex;
+  align-self: center;
+  cursor: pointer;
 }
 
 .stories-text{
