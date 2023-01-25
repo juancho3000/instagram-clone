@@ -31,13 +31,14 @@ font-style: oblique;
 }
 
 .direct-message{
-  margin: -45px 4px 0px;
+  display: flex;
   cursor: pointer;
 }
 
 .direct-message-style{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
+  width: 100%;
 }
 
 .profileName{
@@ -89,9 +90,7 @@ font-style: oblique;
 
 
 .main-publication{
-  width: 88%;
-  position: relative;
-  display: flex;
+  width: 100%;
 }
 
 .like-comment{
