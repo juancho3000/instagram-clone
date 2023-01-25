@@ -1,9 +1,11 @@
 body{
-  background-color: whitesmoke;
+  display: flex;
+  width: 100%;
 }
 
 .App {
   text-align: center;
+  display: flex;
 }
 
 .header{
@@ -38,7 +40,7 @@ font-style: oblique;
 
 .direct-message-style{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 
 .profileName{
@@ -78,6 +80,7 @@ font-style: oblique;
 .three-dots-before{
   display: flex;
   justify-content: flex-end;
+  width: 82%;
 }
 
 .three-dots{
@@ -87,16 +90,22 @@ font-style: oblique;
   cursor: pointer;
 }
 
+
+.main-publication{
+  width: 88%;
+  position: relative;
+  display: flex;
+}
+
 .like-comment{
   display: flex;
-  background-color: whitesmoke;
-  width: 30%;
+  width: 20%;
   justify-content: space-around;
 }
 
 .like-icons{
   display: flex;
-  width: 100%;
+  background-color: whitesmoke;
 }
 
 .like-heart{
@@ -120,6 +129,12 @@ font-style: oblique;
 .like-bookMark{
  margin: -46px 4px 8px 10px;
  cursor: pointer;
+}
+
+.before-interaction{
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
 
 .see-comments{

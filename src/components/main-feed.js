@@ -27,7 +27,7 @@ function MainFeed () {
           <BsBookmark size="30px"/>
         </span>
       </div>
-      <div>
+      <div className="before-interaction">
         <Interactions/>
       </div>
      <div>
