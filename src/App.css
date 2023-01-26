@@ -88,7 +88,6 @@ font-style: oblique;
   cursor: pointer;
 }
 
-
 .main-publication{
   width: 100%;
 }
@@ -128,7 +127,7 @@ font-style: oblique;
  cursor: pointer;
 }
 
-.before-interaction{
+.text-interaction{
   display: flex;
   justify-content: center;
   width: 100%;
@@ -167,6 +166,12 @@ font-style: oblique;
 .list-profile{
   margin: 20px 4px 8px 10px;
   cursor: pointer;
+}
+
+.nameHere{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
 }
 
 .head-section{
