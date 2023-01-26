@@ -55,19 +55,9 @@ font-style: oblique;
   cursor: pointer;
 }
 
-.dot-2{
-  height: 10vh;
-  width: 15%;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: block;
-  margin: 20px 4px 8px 10px;
-  cursor: pointer;
-}
-
-.dot-3{
-  height: 10vh;
-  width: 15%;
+.dot-2, .dot-3{
+  height: 61px;
+  width: 61px;
   background-color: #bbb;
   border-radius: 50%;
   display: block;
