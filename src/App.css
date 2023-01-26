@@ -102,6 +102,7 @@ font-style: oblique;
 .like-icons{
   display: flex;
   background-color: whitesmoke;
+  height: 6%;
 }
 
 .like-heart{
@@ -123,7 +124,7 @@ font-style: oblique;
 }
 
 .like-bookMark{
- margin: -46px 4px 8px 10px;
+ margin: -41px 4px 8px 10px;
  cursor: pointer;
 }
 
