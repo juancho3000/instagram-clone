@@ -131,7 +131,7 @@ font-style: oblique;
 .before-interaction{
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
 
 .see-comments{
